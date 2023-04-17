@@ -52,10 +52,13 @@ Use the projections found in part 1 and part 2 to calculate the estimated propor
 ## Visualizations
 
 ### Background
-Banner across the top with large numbers (total EVs and total charging stations). United States chloropleth map showing the number of electric vehicles by state in 2021. Overlay map with a bubble chart showing the number of charging stations by state. Include a line chart showing the total growth of electric vehicles from 2016-2021. Include a bar chart highlighting the proportion of EVs year-over-year (2016-2017); bar chart will include all automobile fuel types (i.e., gas, hydrogen, electric, etc.). Allow user to filter dashboard by state (all charts adjust to only show info for that state). 
+Banner across the top with large numbers (total EVs and total charging stations). United States chloropleth map showing the proportion of electric vehicles by state in 2021 (include filter to select different years). Overlay map with a bubble chart showing the number of charging stations by state. Include a line chart showing the total growth of electric vehicles from 2016-2021. Include a tooltip on hover that shows the fuel-types proportions for each state. Include a chart showing the percent change of EVs year-over-year (2016-2017); chart will include all automobile fuel types (i.e., gas, hydrogen, electric, etc.). Allow user to filter dashboard by state (all charts adjust to only show info for that state). 
 
 #### Data Source: 
 - Alternative Fuel Data Center: https://afdc.energy.gov/vehicle-registration?year=2021
+
+#### In Progress
+https://public.tableau.com/app/profile/emily4932/viz/ElectricVehicles_16817397796680/EV_State?publish=yes
 
 ### Projection 1: EV Adoption
 United States chloropleth map (or individual states?) by county. Include a slider that allows user to see the change in EV population over time. Bar charts to show the breakdown of electric vehicles (fuel-type and/or make/model?)
