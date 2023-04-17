@@ -11,3 +11,10 @@ Tasks:    Compile Data
           Map Out Data
           Charts and Tables
           Concultions We Can Draw
+
+
+
+Perdictions to Make:
+      growth of ev's per state
+      growth of ev's per county
+      growth of charging stations per county
