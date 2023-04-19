@@ -82,11 +82,17 @@ Linear regression classification/ Machine Learning
 The topic we have selected is charging station per EV car. The reason we have selected this topic is to determine if there will be enough charging stations per EV car, as the push for more EV sales continues to stop climate pollution and focus on a cleaner environment.     
 
 **A description of the data.**
+
 Inputs: 
 - Registered EVs by fuel-type by State through 2016-2021
-- Charging stations within the US 
+<img src="Images/ev_registration_table.png" alt="Alt text" width="600" height="450">
+- Charging stations within the US
+<img src="Images/charging_stations.png" alt="Alt text" width="600" height="450">
+
 - Population of each state through 2016-2021
+
 - Median income of each state through 2016-2021
+
 - Education bachelor’s, degree or higher 
 
 Output:
