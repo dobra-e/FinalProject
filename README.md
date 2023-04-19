@@ -98,6 +98,7 @@ Inputs:
 Output:
 - Ratio of electric vehicles to charging stations by state
 - Predictions on future electric vehicle adoption based on population, income and education
+
 **The questions that the team plans to answer with the project.**
 
 •	Are there enough charging stations per EV car?
