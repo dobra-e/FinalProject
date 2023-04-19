@@ -52,7 +52,7 @@ Use the projections found in part 1 and part 2 to calculate the estimated propor
 ## Visualizations
 
 
-![Visualization Outline](https://user-images.githubusercontent.com/109118631/232955354-d9fd28a5-cb2b-4314-aa00-950e655e15df.png)
+![Visualization Outline](https://user-images.githubusercontent.com/109118631/232955805-68ffa008-364c-418f-bdb4-9a969da9cfc7.png)
 
 
 ### Background
