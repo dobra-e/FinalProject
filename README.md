@@ -7,20 +7,14 @@
 
 ## Analysis Overview
 
-### Predict EV Population by County
+### Predict EV Population by State
 Use a machine learning time series regression model to predict the number of electic vehicles on the road by 20XX. Predictions will be broken down by fuel-type (BEV, PHEV). 
 
 Inputs: 
-- Registered EVs by fuel-type by county
-- Population by county
-- Median income by county
-- Age distribution by county
-- Gender distribution by county
-- Rural vs urban classification
-- Household size by county
-- Other demographic variables from census??
-- State, Federal electrification policies?? (Add if we have time/reliable data; this will certainly influence EV adoption)
-- Weather data???? (Perhaps we add this in if we have time; assumption that colder climates will have slower EV adoption)
+- Registered EVs by fuel-type by State
+- Population
+- Median income
+- Education bachelor’s degree or higher  
 
 Output:
 - Number of electric vehicles by fuel-type by county
@@ -33,11 +27,6 @@ Output:
 ### Predict EV Charging Station Population by County
 Use a machine learning time series regression model to predict the number of public electric vehicle charging stations by 20XX. 
 
-Inputs: 
-- Registered EVs by fuel-type by county
-- Number of charging stations by type by county
-- Rural vs urban classification
-- Other variables from charging station dataset???
 
 Output: 
 - Number of electric vehicle charging stations by county
@@ -84,4 +73,19 @@ United States map showing the counties that are projected to have enough chargin
 Tableau Visualization  
 EV's per zip code and number of charging stations
 Linear regression classification/ Machine Learning
+
+
+## Segment One 
+
+**The selected topic and the reasoning for that selection.**
+
+A description of the data.
+Nuh/Lauren
+
+**The questions that the team plans to answer with the project.**
+
+•	Are there enough charging stations per EV car?
+
+•	Are we following the right trend? 
+
 
