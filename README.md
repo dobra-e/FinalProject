@@ -79,7 +79,10 @@ Linear regression classification/ Machine Learning
 
 **The selected topic and the reasoning for that selection.**
 
-A description of the data.
+The topic we have selected is charging station per EV car. The reason we have selected this topic is to determine if there will be enough charging stations per EV car, as the push for more EV sales continues to stop climate pollution and focus on a cleaner environment.     
+
+**A description of the data.**
+
 Nuh/Lauren
 
 **The questions that the team plans to answer with the project.**
@@ -87,5 +90,19 @@ Nuh/Lauren
 •	Are there enough charging stations per EV car?
 
 •	Are we following the right trend? 
+
+**What story do you want your data to tell?**
+
+How many elective vehicles there is, how many charging stations do we have now and how many will be needed by 2030.
+
+**Goal**
+
+The ratio of charging stations per EV vehicle is is a good or bad ratio based on experts in the field. 
+
+**Our dashboard display message.** 
+
+Are we on track to accommodate EV vehicles or do we need to push for more electric chargers. 
+We predict there will be X% by 2023, president wants 50%, increase incentive to buy more electric. 
+
 
 
