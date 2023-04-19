@@ -51,6 +51,10 @@ Use the projections found in part 1 and part 2 to calculate the estimated propor
 
 ## Visualizations
 
+
+![Visualization Outline](https://user-images.githubusercontent.com/109118631/232955354-d9fd28a5-cb2b-4314-aa00-950e655e15df.png)
+
+
 ### Background
 Banner across the top with large numbers (total EVs and total charging stations). United States chloropleth map showing the proportion of electric vehicles by state in 2021 (include filter to select different years). Overlay map with a bubble chart showing the number of charging stations by state. Include a line chart showing the total growth of electric vehicles from 2016-2021. Include a tooltip on hover that shows the fuel-types proportions for each state. Include a chart showing the percent change of EVs year-over-year (2016-2017); chart will include all automobile fuel types (i.e., gas, hydrogen, electric, etc.). Allow user to filter dashboard by state (all charts adjust to only show info for that state). 
 
