@@ -26,3 +26,7 @@ Perdictions to Make:
 ###  How accuret is the model?
 ###  Are the results easy to interperate?
 ###  Is it reproducible?
+
+
+## https://courses.bootcampspot.com/courses/2639/pages/18-dot-2-3-linear-regression-example?module_item_id=837937
+
