@@ -18,3 +18,11 @@ Perdictions to Make:
       growth of ev's per state
       growth of ev's per county
       growth of charging stations per county
+      
+      
+      
+# Quetions About the Model
+
+###  How accuret is the model?
+###  Are the results easy to interperate?
+###  Is it reproducible?
