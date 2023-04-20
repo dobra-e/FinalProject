@@ -50,7 +50,7 @@ With mounting pressure to address climate change, individuals have increasingly 
 
 ### Description of the Data
 
-The data needed for this project includes: number of electric vehicles registered per state, number of electric vehicles registered per county in Wisconsin, the number of charging stations per state, the number of charging stations per county in Wisconsin, as well as summary data of population, median income, and education (bachelor's degree or higher). We have sourced our data from the US Department of Energy, Atlas EV Hub, and the US Census Bureau. Electric vehicles have only been commercially available for a short time so most of our data only goes back 10 years or so. We plan to use machine learning models to make predictions out to the year 2030.  We will be using a supervised learning linear regression model.
+The data needed for this project includes: number of electric vehicles registered per state, number of electric vehicles registered per county in Wisconsin, the number of charging stations per state, the number of charging stations per county in Wisconsin, as well as summary data of population, median income, and education (bachelor's degree or higher). We have sourced our data from the US Department of Energy, Atlas EV Hub, and the US Census Bureau. Electric vehicles have only been commercially available for a short time so most of our data only goes back 10 years or so. We plan to use machine learning models to make predictions out to the year 2030.  We will be using a supervised learning linear regression model.  We will predict number of electric cars and charging stations for the US and for Wisconsin.
 
 #### Inputs: 
 - Registered EVs by fuel-type by State 2016-2021
@@ -65,7 +65,7 @@ The data needed for this project includes: number of electric vehicles registere
 - Education level of each state 2016-2021 (percent bachelor’s degree or higher) 
 
 #### Output:
-- Ratio of electric vehicles to charging stations by state
+- Ratio of electric vehicles to charging stations in US and WI
 - Predictions on future electric vehicle adoption based on population, income and education
 
 ### Questions to Answer
