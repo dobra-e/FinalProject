@@ -113,7 +113,7 @@ How many elective vehicles there is, how many charging stations do we have now a
 
 **Goal**
 
-The ratio of charging stations per EV vehicle is is a good or bad ratio based on experts in the field. 
+The ratio of charging stations per EV vehicle is it a good or bad ratio based on experts in the field. 
 
 **Our dashboard display message.** 
 
