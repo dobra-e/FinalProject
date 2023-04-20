@@ -83,7 +83,7 @@ The topic we have selected is charging station per EV car. The reason we have se
 
 **A description of the data.**
 
-The data needed for this project includes; number of electric vehicles registered per state, number of electric vehicles registered per county, in Wisconsin, the number of charging stations per state, the number of charting stations per county, in Wisconsin, as well as summery data of population, education (batcholors degree % earned per year) and median income. We have sourced our data from the US department of Energy, Atlas EV Hub and the US Census Bureau. Electric vehicles have only been commercially available for a short time so most of our data on them only goes back 10 years or so. We plan to use machine learning models to make predictions out to the year 2030.  We will be useing a supervised learning, linerar regrsion model.
+The data needed for this project includes; number of electric vehicles registered per state, number of electric vehicles registered per county, in Wisconsin, the number of charging stations per state, the number of charting stations per county, in Wisconsin, as well as summery data of population, education (bachelor’s degree % earned per year) and median income. We have sourced our data from the US department of Energy, Atlas EV Hub and the US Census Bureau. Electric vehicles have only been commercially available for a short time so most of our data on them only goes back 10 years or so. We plan to use machine learning models to make predictions out to the year 2030.  We will be useing a supervised learning, linerar regrsion model.
 
 Inputs: 
 - Registered EVs by fuel-type by State through 2016-2021
