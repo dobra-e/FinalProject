@@ -1,6 +1,7 @@
 # FinalProject
 
-
+ - How many electric vehicles will there be in 2030 by state (and county in Wisconsin)
+ - How many charging stations will there be in 2030 by state (and county in Wisconsin)
 
 
 
