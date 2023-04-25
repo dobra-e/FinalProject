@@ -42,7 +42,7 @@ Use the projections found in part 1 and part 2 to calculate the estimated propor
 
 
 
-## Segment One 
+## Segment Two 
 
 ### Selected Topic
 
@@ -79,4 +79,12 @@ The data needed for this project includes: number of electric vehicles registere
 ### Our Data Story
 
 ![Visualization Outline](https://user-images.githubusercontent.com/109118631/232955805-68ffa008-364c-418f-bdb4-9a969da9cfc7.png)
+
+
+
+### A description of the data exploration phase of the project.
+
+### A description of the analysis phase of the project.
+
+### The technologies, languages, tools, and algorithms that the team used throughout the project.
 
