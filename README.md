@@ -70,11 +70,12 @@ The data needed for this project includes: number of electric vehicles registere
 
 ### Questions to Answer
 
-*	How many electric vehicles will there be in 2030 by state (and county in Wisconsin)
-* How many charging stations will there be in 2030 by state (and county in Wisconsin) 
-* What is the ratio of electric vehicles to charging stations by state (and county in Wisconsin)
+
+* What is the ratio of electric vehicles to charging stations by state?
 * Are there enough charging stations per EV based on the recommended ratio from the literature?
 * Are we following the right trend to meet recent governmental initiatives for EV adoption?
+*	What is the accuracy between 2021 given data and our model?
+* What does our model predict for 2021?
 
 ### Our Data Story
 
