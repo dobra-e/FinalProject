@@ -30,6 +30,23 @@ Use a machine learning time series regression model to predict the number of pub
 Output: 
 - Number of electric vehicle charging stations by state
 
+
+#### Inputs: 
+- Registered EVs by fuel-type by State 2016-2021
+<img src="Images/ev_registration_table.png" alt="Alt text" width="600" height="450">
+- Charging stations within the US
+<img src="Images/charging_stations.png" alt="Alt text" width="600" height="450">
+
+- Population of each state 2016-2021
+
+- Median income of each state 2016-2021
+
+- Education level of each state 2016-2021 (percent bachelor’s degree or higher) 
+
+#### Output:
+- Ratio of electric vehicles to charging stations in US and WI
+- Predictions on future electric vehicle adoption based on population, income and education
+
 #### Data Sources
 - Registation Data: https://www.atlasevhub.com/materials/state-ev-registration-data 
 - Fuel Station Data: https://afdc.energy.gov/data_download
@@ -52,21 +69,6 @@ With mounting pressure to address climate change, individuals have increasingly 
 
 The data needed for this project includes: number of electric vehicles registered per state, the number of charging stations per state, as well as summary data of population, median income, and education (bachelor's degree or higher). We have sourced our data from the US Department of Energy, Atlas EV Hub, and the US Census Bureau. Electric vehicles have only been commercially available for a short time so most of our data only goes back 10 years or so. We plan to build a machine learning models that accurately predicts the currently available data.  We will be using a supervised learning linear regression model.  We will predict number of electric cars and charging stations for the US.
 
-#### Inputs: 
-- Registered EVs by fuel-type by State 2016-2021
-<img src="Images/ev_registration_table.png" alt="Alt text" width="600" height="450">
-- Charging stations within the US
-<img src="Images/charging_stations.png" alt="Alt text" width="600" height="450">
-
-- Population of each state 2016-2021
-
-- Median income of each state 2016-2021
-
-- Education level of each state 2016-2021 (percent bachelor’s degree or higher) 
-
-#### Output:
-- Ratio of electric vehicles to charging stations in US and WI
-- Predictions on future electric vehicle adoption based on population, income and education
 
 ### Questions to Answer
 
@@ -102,6 +104,25 @@ Mapped the proportion of electric vehicles registrated by state. The West coast 
 
 
 ### A description of the analysis phase of the project.
+
+## Analysis Phase
+
+During the analysis phase, our primary goal was to extract meaningful insights from the cleaned and preprocessed data using various statistical methods and machine learning techniques. This phase involved several steps:
+
+1. **Variable Selection**: We used the following variables for our analysis: year, electric EV, hybrid plug-in EV, income, education, population (as independent variables or features), and EV total (as the dependent variable or target).
+
+2. **Model Selection**: After evaluating various machine learning models, we decided to use Linear Regression and Time Series Analysis for our project, as they provided the best performance and interpretability for our dataset.
+
+3. **Feature Engineering**: We calculated the ratio of EVs to charging stations to better assess the progress of states in adopting EVs. This new feature allowed us to better understand the relationship between EV adoption and charging infrastructure availability.
+
+4. **Model Training and Validation**: We trained and validated our Linear Regression and Time Series models using the selected variables. These models allowed us to make predictions and identify hidden patterns in the data.
+
+5. **Model Evaluation**: We assessed the performance of our models using appropriate evaluation metrics, such as mean squared error. Based on these metrics, we fine-tuned our models to optimize their performance.
+
+6. **Insights and Recommendations**: Based on the results of our analyses and models, we derived actionable insights to address the project objectives. These insights included the impact of factors such as income, education, and population on EV adoption and the relationship between EVs and charging infrastructure.
+
+By the end of the analysis phase, we had gathered valuable insights and developed models that could inform decision-making and guide future actions to accelerate EV adoption and charging infrastructure deployment.
+
 
 ### The technologies, languages, tools, and algorithms that the team used throughout the project.
 * Python
