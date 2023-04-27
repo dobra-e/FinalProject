@@ -93,14 +93,18 @@ Our main objective during the data exploration phase was to gain a deeper unders
 
 2. **Correlation Analysis**: To assess the linear relationships between pairs of continuous variables, we performed a correlation analysis. This helped us identify the most relevant variables for our predictive modeling, primarily focusing on the relationship between year and state across our census data and EV registration data.
 
+    We used a database to assist in this analysis.
+![DatabaseERD](Database_files/finalprojectdb.png)
+
+
 3. **Visualization**: After importing the data into Tableau, we created line charts and other graphs to visually compare the variables in our dataset.
 
-Created a line chart to visualize vehicle registration trends from 2016-2021 by fuel-type for the United States. From 2020 to 2021, there was a steady increase in electric vehicle registrations.
+    Created a line chart to visualize vehicle registration trends from 2016-2021 by fuel-type for the United States. From 2020 to 2021, there was a steady increase in     electric vehicle registrations.
 
 ![Screenshot 2023-04-26 at 7 27 08 PM](https://user-images.githubusercontent.com/109118631/234729958-968e3ff9-4338-4b65-8926-a282e356bce7.png)
 
-
-Mapped the proportion of electric vehicles registrated by state. The West coast (in particular California) is leading the way in EV adoption. 
+  
+    Mapped the proportion of electric vehicles registrated by state. The West coast (in particular California) is leading the way in EV adoption. 
 
 ![Screenshot 2023-04-26 at 7 28 59 PM](https://user-images.githubusercontent.com/109118631/234730093-3b4b4bfb-396b-490a-b592-17e50676b943.png)
 
