@@ -84,6 +84,8 @@ The data needed for this project includes: number of electric vehicles registere
 
 ### A description of the data exploration phase of the project.
 
+Created a line chart to visualize vehicle registration trends from 2016-2021 by fuel-type for the United States. 
+
 ### A description of the analysis phase of the project.
 
 ### The technologies, languages, tools, and algorithms that the team used throughout the project.
