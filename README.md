@@ -85,6 +85,7 @@ The data needed for this project includes: number of electric vehicles registere
 ### A description of the data exploration phase of the project.
 
 Created a line chart to visualize vehicle registration trends from 2016-2021 by fuel-type for the United States. From 2020 to 2021, there was a steady increase in electric vehicle registrations.
+
 ![Screenshot 2023-04-26 at 7 27 08 PM](https://user-images.githubusercontent.com/109118631/234729958-968e3ff9-4338-4b65-8926-a282e356bce7.png)
 
 Mapped the proportion of electric vehicles registrated by state. The West coast (in particular California) is leading the way in EV adoption. 
