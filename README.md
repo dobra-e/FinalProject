@@ -42,7 +42,7 @@ Use the projections found in part 1 and part 2 to calculate the estimated propor
 
 
 
-## Segment One 
+## Segment Two 
 
 ### Selected Topic
 
@@ -50,7 +50,7 @@ With mounting pressure to address climate change, individuals have increasingly 
 
 ### Description of the Data
 
-The data needed for this project includes: number of electric vehicles registered per state, number of electric vehicles registered per county in Wisconsin, the number of charging stations per state, the number of charging stations per county in Wisconsin, as well as summary data of population, median income, and education (bachelor's degree or higher). We have sourced our data from the US Department of Energy, Atlas EV Hub, and the US Census Bureau. Electric vehicles have only been commercially available for a short time so most of our data only goes back 10 years or so. We plan to use machine learning models to make predictions out to the year 2030.  We will be using a supervised learning linear regression model.
+The data needed for this project includes: number of electric vehicles registered per state, number of electric vehicles registered per county in Wisconsin, the number of charging stations per state, the number of charging stations per county in Wisconsin, as well as summary data of population, median income, and education (bachelor's degree or higher). We have sourced our data from the US Department of Energy, Atlas EV Hub, and the US Census Bureau. Electric vehicles have only been commercially available for a short time so most of our data only goes back 10 years or so. We plan to use machine learning models to make predictions out to the year 2030.  We will be using a supervised learning linear regression model.  We will predict number of electric cars and charging stations for the US and for Wisconsin.
 
 #### Inputs: 
 - Registered EVs by fuel-type by State 2016-2021
@@ -65,7 +65,7 @@ The data needed for this project includes: number of electric vehicles registere
 - Education level of each state 2016-2021 (percent bachelor’s degree or higher) 
 
 #### Output:
-- Ratio of electric vehicles to charging stations by state
+- Ratio of electric vehicles to charging stations in US and WI
 - Predictions on future electric vehicle adoption based on population, income and education
 
 ### Questions to Answer
@@ -80,3 +80,33 @@ The data needed for this project includes: number of electric vehicles registere
 
 ![Visualization Outline](https://user-images.githubusercontent.com/109118631/232955805-68ffa008-364c-418f-bdb4-9a969da9cfc7.png)
 
+
+
+### A description of the data exploration phase of the project.
+Our main objective during the data exploration phase was to gain a deeper understanding of the dataset and uncover any hidden patterns, trends, or anomalies. This process involved several steps:
+
+1. **Initial Dataset Inspection**: We began by scrutinizing the structure and variables in the dataset, evaluating the data types, range of values, and the presence of any missing or irregular data. We identified some inconsistencies in the EV registration data and promptly addressed them.
+
+2. **Correlation Analysis**: To assess the linear relationships between pairs of continuous variables, we performed a correlation analysis. This helped us identify the most relevant variables for our predictive modeling, primarily focusing on the relationship between year and state across our census data and EV registration data.
+
+3. **Visualization**: After importing the data into Tableau, we created line charts and other graphs to visually compare the variables in our dataset.
+
+Created a line chart to visualize vehicle registration trends from 2016-2021 by fuel-type for the United States. From 2020 to 2021, there was a steady increase in electric vehicle registrations.
+
+![Screenshot 2023-04-26 at 7 27 08 PM](https://user-images.githubusercontent.com/109118631/234729958-968e3ff9-4338-4b65-8926-a282e356bce7.png)
+
+
+Mapped the proportion of electric vehicles registrated by state. The West coast (in particular California) is leading the way in EV adoption. 
+
+![Screenshot 2023-04-26 at 7 28 59 PM](https://user-images.githubusercontent.com/109118631/234730093-3b4b4bfb-396b-490a-b592-17e50676b943.png)
+
+4. **Feature Engineering**: Informed by our observations during the exploration phase, we pinpointed opportunities to transform existing features to better capture the patterns in the data, ultimately enhancing the quality of our analysis. We concentrated on refining the Tableau dashboard to provide greater clarity in visualization.
+
+
+### A description of the analysis phase of the project.
+
+### The technologies, languages, tools, and algorithms that the team used throughout the project.
+* Python
+* Amazon S3
+* Postgres
+* Tableau
