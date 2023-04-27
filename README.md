@@ -132,6 +132,7 @@ During the analysis phase, our primary goal was to extract meaningful insights f
 
 By the end of the analysis phase, we had gathered valuable insights and developed models that could inform decision-making and guide future actions to accelerate EV adoption and charging infrastructure deployment.
 
+[ML model code + connection string to DB](https://github.com/dobra-e/FinalProject/blob/ce2f72fcec1d3b7fc8c19eba2076c1b8f7549dc3/USA%20data/Untitled4.ipynb)
 
 ### The technologies, languages, tools, and algorithms that the team used throughout the project.
 * Python
