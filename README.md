@@ -87,4 +87,7 @@ The data needed for this project includes: number of electric vehicles registere
 ### A description of the analysis phase of the project.
 
 ### The technologies, languages, tools, and algorithms that the team used throughout the project.
-
+* Python
+* Amazon S3
+* Postgres
+* Tableau
