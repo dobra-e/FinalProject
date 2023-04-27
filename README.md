@@ -82,7 +82,6 @@ The data needed for this project includes: number of electric vehicles registere
 
 ### Our Data Story
 
-![Visualization Outline](https://user-images.githubusercontent.com/109118631/232955805-68ffa008-364c-418f-bdb4-9a969da9cfc7.png)
 
 
 
@@ -109,6 +108,8 @@ Our main objective during the data exploration phase was to gain a deeper unders
 ![Screenshot 2023-04-26 at 7 28 59 PM](https://user-images.githubusercontent.com/109118631/234730093-3b4b4bfb-396b-490a-b592-17e50676b943.png)
 
 4. **Feature Engineering**: Informed by our observations during the exploration phase, we pinpointed opportunities to transform existing features to better capture the patterns in the data, ultimately enhancing the quality of our analysis. We concentrated on refining the Tableau dashboard to provide greater clarity in visualization.
+
+![Visualization Outline](https://user-images.githubusercontent.com/109118631/232955805-68ffa008-364c-418f-bdb4-9a969da9cfc7.png)
 
 
 ### A description of the analysis phase of the project.
