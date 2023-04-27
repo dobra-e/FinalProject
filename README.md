@@ -86,6 +86,7 @@ The data needed for this project includes: number of electric vehicles registere
 
 Created a line chart to visualize vehicle registration trends from 2016-2021 by fuel-type for the United States. 
 ![Screenshot 2023-04-26 at 7 27 08 PM](https://user-images.githubusercontent.com/109118631/234729958-968e3ff9-4338-4b65-8926-a282e356bce7.png)
+![Screenshot 2023-04-26 at 7 28 59 PM](https://user-images.githubusercontent.com/109118631/234730093-3b4b4bfb-396b-490a-b592-17e50676b943.png)
 
 
 ### A description of the analysis phase of the project.
