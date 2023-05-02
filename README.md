@@ -90,7 +90,7 @@ Our main objective during the data exploration phase was to gain a deeper unders
 
 1. **Initial Dataset Inspection**: We began by scrutinizing the structure and variables in the dataset, evaluating the data types, range of values, and the presence of any missing or irregular data. We identified some inconsistencies in the EV registration data and promptly addressed them.
 
-2. **Correlation Analysis**: To assess the linear relationships between pairs of continuous variables, we performed a correlation analysis. This helped us identify the most relevant variables for our predictive modeling, primarily focusing on the relationship between year and state across our census data and EV registration data.
+2. **Correlation Analysis**: To assess the linear relationships between pairs of continuous variables, we performed a correlation analysis. This helped us identify the most relevant variables for our predictive modeling, primarily focusing on the relationship between year and state across our census data and EV registration data and charging station count.
 
     We used a database to assist in this analysis.
 ![DatabaseERD](Database_files/finalprojectdb.png)
@@ -139,3 +139,32 @@ By the end of the analysis phase, we had gathered valuable insights and develope
 * Amazon S3
 * Postgres
 * Tableau
+
+### The results of the analysis
+
+Our analysis of electric vehicle (EV) adoption and charging station capacity in the United States revealed several key findings. By examining state EV registration data, we identified trends in EV adoption and the growth of charging infrastructure. Furthermore, we discovered relationships between state population, income, and education levels, which have significant effects on both EV adoption and charging station capacity.
+
+Using our machine learning model, we were able to make several key predictions:
+
+1. 
+2. 
+3. 
+
+
+### Recommendations for a future analysis
+
+Based on our findings, we recommend conducting further analysis to better understand the nuances of EV adoption and charging station capacity growth in the United States:
+
+1. Investigate the impact of local and state policies and incentives on EV adoption and charging infrastructure development.
+2. Explore the role of urban versus rural areas in EV adoption, as infrastructure needs and challenges may differ significantly between these regions.
+3. Analyze the role of public and private partnerships in supporting the growth of charging infrastructure, as well as the effectiveness of various business models for charging stations.
+4. Examine the potential environmental and economic benefits of increased EV adoption, including reduced greenhouse gas emissions, decreased reliance on fossil fuels, and potential job creation in the renewable energy sector.
+
+### Things to do with additonal time
+
+With more time, we could expand the scope of our analysis and further improve the accuracy of our predictions:
+
+1. Incorporate additional data, such as vehicle type (e.g., sedans, SUVs, trucks) and regional factors (e.g., climate, terrain) that could influence EV adoption and charging station requirements.
+2. Refine the machine learning model by exploring additional algorithms and enabling future predictions, such as forecasting EV adoption and charging station needs for the year 2030. This could involve incorporating trends in technology advancements, policy changes, and consumer preferences to create more accurate and robust long-term projections.
+3. Conduct a cost-benefit analysis of potential investments in EV infrastructure, considering factors such as construction costs, maintenance expenses, and the long-term economic and environmental benefits of increased EV adoption.
+4. Evaluate the potential impact of charging station and EV adoption on the electrical grid. This could include analyzing the capacity of existing grid infrastructure to support increased EV charging demand, the need for grid upgrades or the integration of renewable energy sources.
