@@ -7,11 +7,25 @@ We have chosen to evaluate the growth of electric vehicles nationwide and determ
 The buildup of greenhouse gases as a result of burning fossil-fuels is a significant contributor to climate change. About 27% of the United States greenhouse gas emissions are from transportation. With mounting pressure to address climate change, federal and state governments have pushed policies to reduce fossil-fuel emissions and incentivize alternative fuel solutions. Individuals have increasingly switched to alternative fuel vehicles including battery electric vehicles (BEVs) and plug-in hybrid electric vehicles (PHEVs). Nationwide, electric vehicle registrations have grown XX% in the last 6 years. Electric vehicle infrastructure, such as charging stations, needs to be prioritized to meet this rising demand and to maximize the benefits of electric vehicles in slowing greenhouse gas emissions and ensuring a cleaner environment.
 
 ### Data Sources
-1. 
-2.
-3.
-4.
-5.
+#### Vehicle Registrations
+Light-duty vehicle registration counts from 2016-2021 by state and fuel-type. Counts are rounded to the nearest 100 vehicles. 
+Alternative Fuels Data Center. (2021). Vehicle Registration Counts by State [data set]. https://afdc.energy.gov/vehicle-registration. 
+
+#### Charging Stations
+Alternative fuel stations, including electric, nationwide as of July 19, 2021. Information includes address, access, open date, etc. 
+Alternative Fuels Data Center. (2021). Alternative Fuel Stations 2021 [data set]. https://catalog.data.gov/dataset/alternative-fueling-station-locations-422f2. 
+
+#### Population
+Population estimates by state and region from 2010 to 2022. Estimates are based on the 2010 Census. 
+U.S. Census Bureau. Population Division.  (2019). Annual Estimates of the Resident Population for the United States, Regions, States, and Puerto Rico [data set]. https://www.census.gov/data/datasets.html. 
+
+#### Median Household Income
+Annual median household income (dollars) by state and nationwide from 2016-2021. 
+Federal Reserve Bank of St. Louis (2021). Median Household Income by State, Annual [data set]. https://fred.stlouisfed.org/release/tables?rid=249&eid=259462. 
+
+#### Educational Attainment
+Percent of population 18 years old and over with a bachelor’s degree or higher by state. Estimates are based on the American Community Survey.
+Federal Reserve Bank of St. Louis.  (2021). Bachelor’s Degree or Higher by State [data set]. https://fred.stlouisfed.org/release/tables?rid=330&eid=391444#snid=391450. 
 
 
 ### Questions to Answer with the Data
