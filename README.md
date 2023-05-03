@@ -41,18 +41,16 @@ Our main objective during the data exploration phase was to gain a deeper unders
 
 1. **Initial Dataset Inspection**: During the initial dataset inspection, we focused on examining the structure and variables within the dataset, carefully assessing the data types, range of values, and identifying any missing or irregular data. To prepare the datasets for import into our database, we had to preprocess the data from our sources. This included renaming and removing certain columns, as well as altering the data types of specific columns to ensure compatibility. Additionally, we removed commas from the population, income, and education datasets, which facilitated the smooth import of data into the SQL database.
 
-2. **Correlation Analysis**: We conducted a correlation analysis to evaluate the linear relationships between pairs of continuous variables, which allowed us to identify the most relevant variables for our predictive modeling. Our primary focus was on the relationship between year and state across the census data, EV registration data, and charging station data. Instead of having separate columns for each year in the population, income, and education datasets, we restructured the data to have a single year column, enabling us to join them with the EV registration table.
+2. **Correlation Analysis**: We carried out a correlation analysis to assess the linear relationships between continuous variables, helping us identify the most relevant variables for our predictive modeling. Our main focus was on the relationship between year and state across the census data, EV registration data, and charging station data. To facilitate joining them with the EV registration table, we restructured the population, income, and education datasets to have a single year column instead of separate columns for each year.
 
-Although the charging station dataset did not initially have a count based on the year, it did have an open date column. By utilizing the open_date column, we were able to create a count by year column, which would allow us to subsequently join it to the EV registration table.
+    While the charging station dataset initially lacked a count based on the year, it had an open date column. By using the open_date column, we created a count by year column, which enabled us to join it with the EV registration table subsequently.
 
-The EV registration dataset required modification as well. Non-EV vehicles were aggregated into a single column, while EVs were categorized into two groups: BEV (Battery Electric Vehicles) and PHEV (Plug-in Hybrid Electric Vehicles). After making these changes, we performed four left joins to create a comprehensive table containing all the data we wanted to utilize. Year and State were utilized as primary keys when joining the tables in pgAdmin.
+    Modifications were necessary for the EV registration dataset as well. We aggregated non-EV vehicles into one column and categorized EVs into two groups: BEV (Battery Electric Vehicles) and PHEV (Plug-in Hybrid Electric Vehicles). After making these adjustments, we executed four left joins to form a comprehensive table containing all desired data. We used Year and State as primary keys for joining tables in pgAdmin.
 
-    We used a database to assist in this analysis.
+4. **Feature Engineering**: During the feature engineering stage, we used the final table to create machine learning models and a visualization dashboard. The dashboard displayed a map of the United States, encompassing all 50 states, and showed the total number of EVs and charging stations for each year. For our machine learning models, we incorporated population, income, and education data alongside the EV registration data. This allowed us to build a model aimed at predicting the growth of EV registrations and the expansion of charging stations.
+    
+    Here is an image of our final database.
 ![DatabaseERD](Database_files/finalprojectdb.png)
-
-3. **Visualization**: After importing the data into Tableau, we created line charts and other graphs to visually compare the variables in our dataset.
-
-4. **Feature Engineering**: Informed by our observations during the exploration phase, we pinpointed opportunities to transform existing features to better capture the patterns in the data, ultimately enhancing the quality of our analysis. We concentrated on refining the Tableau dashboard to provide greater clarity in visualization.
 
 ### Description of the Analysis Phase of the Project.
 During the analysis phase, our primary goal was to extract meaningful insights from the cleaned and preprocessed data using various statistical methods and machine learning techniques. This phase involved several steps:
