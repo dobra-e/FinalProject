@@ -39,9 +39,13 @@ Source: Federal Reserve Bank of St. Louis.  (2021). Bachelor’s Degree or Highe
 ### Description of the Data Exploration Phase of the Project
 Our main objective during the data exploration phase was to gain a deeper understanding of the dataset and uncover any hidden patterns, trends, or anomalies. This process involved several steps:
 
-1. **Initial Dataset Inspection**: We began by scrutinizing the structure and variables in the dataset, evaluating the data types, range of values, and the presence of any missing or irregular data. We identified some inconsistencies in the EV registration data and promptly addressed them.
+1. **Initial Dataset Inspection**: During the initial dataset inspection, we focused on examining the structure and variables within the dataset, carefully assessing the data types, range of values, and identifying any missing or irregular data. To prepare the datasets for import into our database, we had to preprocess the data from our sources. This included renaming and removing certain columns, as well as altering the data types of specific columns to ensure compatibility. Additionally, we removed commas from the population, income, and education datasets, which facilitated the smooth import of data into the SQL database.
 
-2. **Correlation Analysis**: To assess the linear relationships between pairs of continuous variables, we performed a correlation analysis. This helped us identify the most relevant variables for our predictive modeling, primarily focusing on the relationship between year and state across our census data and EV registration data and charging station count.
+2. **Correlation Analysis**: We conducted a correlation analysis to evaluate the linear relationships between pairs of continuous variables, which allowed us to identify the most relevant variables for our predictive modeling. Our primary focus was on the relationship between year and state across the census data, EV registration data, and charging station data. Instead of having separate columns for each year in the population, income, and education datasets, we restructured the data to have a single year column, enabling us to join them with the EV registration table.
+
+Although the charging station dataset did not initially have a count based on the year, it did have an open date column. By utilizing the open_date column, we were able to create a count by year column, which would allow us to subsequently join it to the EV registration table.
+
+The EV registration dataset required modification as well. Non-EV vehicles were aggregated into a single column, while EVs were categorized into two groups: BEV (Battery Electric Vehicles) and PHEV (Plug-in Hybrid Electric Vehicles). After making these changes, we performed four left joins to create a comprehensive table containing all the data we wanted to utilize. Year and State were utilized as primary keys when joining the tables in pgAdmin.
 
     We used a database to assist in this analysis.
 ![DatabaseERD](Database_files/finalprojectdb.png)
