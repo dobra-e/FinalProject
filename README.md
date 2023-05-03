@@ -7,12 +7,19 @@ We have chosen to evaluate the growth of electric vehicles nationwide and determ
 The buildup of greenhouse gases as a result of burning fossil-fuels is a significant contributor to climate change. About 27% of the United States greenhouse gas emissions are from transportation. With mounting pressure to address climate change, federal and state governments have pushed policies to reduce fossil-fuel emissions and incentivize alternative fuel solutions. Individuals have increasingly switched to alternative fuel vehicles including battery electric vehicles (BEVs) and plug-in hybrid electric vehicles (PHEVs). Nationwide, electric vehicle registrations have grown XX% in the last 6 years. Electric vehicle infrastructure, such as charging stations, needs to be prioritized to meet this rising demand and to maximize the benefits of electric vehicles in slowing greenhouse gas emissions and ensuring a cleaner environment.
 
 ### Data Sources
-
-
+1. 
+2.
+3.
+4.
+5.
 
 
 ### Questions to Answer with the Data
-
+1. What are the adoption rates of EVs by state and nationwide?
+2. What is the ratio of charging stations to EVs by state and nationwide?
+3. Does population, income, and education accurately predict EV adoption?
+4. What does our model predict for 2021 EV adoption and charging stations?
+5. Which states have the appropriate charging station infastructure?
 
 
 ### Description of the Data Exploration Phase of the Project
