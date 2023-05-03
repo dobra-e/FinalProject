@@ -25,17 +25,7 @@ Our main objective during the data exploration phase was to gain a deeper unders
     We used a database to assist in this analysis.
 ![DatabaseERD](Database_files/finalprojectdb.png)
 
-
 3. **Visualization**: After importing the data into Tableau, we created line charts and other graphs to visually compare the variables in our dataset.
-
-    Created a line chart to visualize vehicle registration trends from 2016-2021 by fuel-type for the United States. From 2020 to 2021, there was a steady increase in     electric vehicle registrations.
-
-![Screenshot 2023-04-26 at 7 27 08 PM](https://user-images.githubusercontent.com/109118631/234729958-968e3ff9-4338-4b65-8926-a282e356bce7.png)
-
-  
-    Mapped the proportion of electric vehicles registrated by state. The West coast (in particular California) is leading the way in EV adoption. 
-
-![Screenshot 2023-04-26 at 7 28 59 PM](https://user-images.githubusercontent.com/109118631/234730093-3b4b4bfb-396b-490a-b592-17e50676b943.png)
 
 4. **Feature Engineering**: Informed by our observations during the exploration phase, we pinpointed opportunities to transform existing features to better capture the patterns in the data, ultimately enhancing the quality of our analysis. We concentrated on refining the Tableau dashboard to provide greater clarity in visualization.
 
