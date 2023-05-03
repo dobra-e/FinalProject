@@ -55,15 +55,21 @@ Our main objective during the data exploration phase was to gain a deeper unders
 ### Description of the Analysis Phase of the Project.
 During the analysis phase, our primary goal was to extract meaningful insights from the cleaned and preprocessed data using various statistical methods and machine learning techniques. This phase involved several steps:
 
-1. **Variable Selection**: We used the following variables for our analysis: year, electric EV, hybrid plug-in EV, income, education, population (as independent variables or features), and EV total (as the dependent variable or target).
+1. **Variable Selection**: We used the following variables for our analysis: year, electric EV, hybrid plug-in EV, income, education, population, EV toatl (as independent variables or features), EV total and Charging station count (as the dependent variable or target). 
 
 2. **Model Selection**: After evaluating various machine learning models, we decided to use Linear Regression and Time Series Analysis for our project, as they provided the best performance and interpretability for our dataset.
 
 3. **Feature Engineering**: We calculated the ratio of EVs to charging stations to better assess the progress of states in adopting EVs. This new feature allowed us to better understand the relationship between EV adoption and charging infrastructure availability.
 
-4. **Model Training and Validation**: We trained and validated our Linear Regression and Time Series models using the selected variables. These models allowed us to make predictions and identify hidden patterns in the data.
+4. **Model Training and Validation**: : Our Linear Regression and Time Series models were trained and validated using year, income, education, population, and non-EV total as independent variables to predict EV total, our target. We also trained a second model, using the same independent variables along with EV total to predict charging station count. These models enabled us to generate predictions and reveal concealed trends within the data.
 
-5. **Model Evaluation**: We assessed the performance of our models using appropriate evaluation metrics, such as mean squared error. Based on these metrics, we fine-tuned our models to optimize their performance.
+    ![image](https://user-images.githubusercontent.com/117605658/236067409-87f29280-a2de-46e4-b5a6-c1fa79737df8.png)
+
+
+5. **Model Evaluation**: We assessed the performance of our models using appropriate evaluation metrics, such as mean squared error and mean absolute error.
+    
+    ![image](https://user-images.githubusercontent.com/117605658/236067129-aba127ff-72b2-41b4-90f2-88d05f246ad6.png)
+
 
 6. **Insights and Recommendations**: Based on the results of our analyses and models, we derived actionable insights to address the project objectives. These insights included the impact of factors such as income, education, and population on EV adoption and the relationship between EVs and charging infrastructure.
 
