@@ -33,7 +33,7 @@ Source: Federal Reserve Bank of St. Louis.  (2021). Bachelor’s Degree or Highe
 2. What is the ratio of charging stations to EVs by state and nationwide?
 3. Does population, income, and education accurately predict EV adoption?
 4. What does our model predict for 2021 EV adoption and charging stations?
-5. Which states have the appropriate charging station infastructure?
+5. Which states have the appropriate charging station infrastructure?
 
 
 ### Description of the Data Exploration Phase of the Project
