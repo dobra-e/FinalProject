@@ -88,6 +88,7 @@ Our analysis of electric vehicle (EV) adoption and charging station capacity in 
 
 Unfortunetly our models were not as accurate as we had hoped. Although we were able to get a prediction model we would not use the results to make an assesment.
 
+[Requirments.txt](https://github.com/dobra-e/FinalProject/blob/a5de4679ffcc99eac627c7395a375178d6dd38a2/requirements.txt)
 
 ### Recommendations for a future analysis
 Based on our findings, we recommend conducting further analysis to better understand the nuances of EV adoption and charging station capacity growth in the United States:
