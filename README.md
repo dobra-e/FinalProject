@@ -86,7 +86,7 @@ By the end of the analysis phase, we had gathered valuable insights and develope
 ### Results of the Analyis
 Our analysis of electric vehicle (EV) adoption and charging station capacity in the United States revealed several key findings. By examining state EV registration data, we identified trends in EV adoption and the growth of charging infrastructure. Furthermore, we discovered relationships between state population, income, and education levels, which have significant effects on both EV adoption and charging station capacity.
 
-Unfortunetly our models were not as accurate as we had hoped. Although we were able to get a prediction model we would not use the results to make an assesment.
+Unfortunately, our models were not as accurate as we had hoped. Although we were able to get a prediction model, we would not use the results to make an assesment.
 
 [Requirments.txt](https://github.com/dobra-e/FinalProject/blob/a5de4679ffcc99eac627c7395a375178d6dd38a2/requirements.txt)
 
